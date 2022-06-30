@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+.images {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+
+.btnWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 20px;
+  margin: auto 10px;
+  /* background-color: #9D80CB; */
+  background-color: #BA8FFF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-weight: bold;
+  /* border-radius: 5px; */    /* For "squaval" shape */
+  border-radius: 50px;         /* For oval shape */
+}
+
+button:hover, button:focus {
+  cursor: pointer;
+  /* background-color: #AC8BD0; */
+  background-color: #C49FFF;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+table {
+  font-size: 25px;
+  contain: paint;
+  border-collapse: collapse;
+  /* border-radius: 5px; */    /* For "squaval" shape */
+  border-radius: 50px;         /* For oval shape */
+}
+
+th {
+  font-size: 25px;
+  /* background-color: #9D80CB; */
+  background-color: #BA8FFF;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  width: 50%;
+}
+
+tr {
+  text-align: center;
+  /* background-color: #D9ACDD; */
+  background-color: #FAF7FF;
+}
+
+tr:nth-child(odd){
+  /* background-color: #E8B7E2; */
+  background-color: #F5EFFF;
+}
+
+tr:hover {
+  /* background-color: #F7C2E6; */
+  background-color: #F0E7FF;
+}
+
+table img {
+  border-radius: 20px;
+  border: white 2px solid;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+}
